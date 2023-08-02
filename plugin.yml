@@ -1,0 +1,14 @@
+name: SimpleCords
+version: 1.0.0
+author: OldVersal
+api: 5.0.0
+main: SimpleCords\Main
+commands:
+  coords:
+    description: Show your coordinates real-time as you move
+    permission: coordinates
+    usage: /coords
+permissions:
+  coordinates:
+    default: true
+    description: "Allows use of coordinates"

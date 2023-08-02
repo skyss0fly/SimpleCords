@@ -1,1 +1,10 @@
+---
 
+## Number of ticks to wait before refreshing the display
+refreshRate: 1
+## Mode of the display (tip/popup)
+displayMode: "tip"
+## Number of decimal places to show for coordinates (default 1)
+precision: 1
+
+...

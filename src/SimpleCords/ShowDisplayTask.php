@@ -25,7 +25,7 @@ class ShowDisplayTask extends Task{
 	public function onRun() : void{
 		assert(!$this->player->isClosed());
 		$ploc = $this->player->getLocation();
-		$location = "Location: " . TextFormat::GREY . "(" . Utils::getFormattedCoords($this->precision, $ploc->getX(), $ploc->getY(), $ploc->getZ()) . ")" . TextFormat::WHITE . "\n";
+		$location = "Location: " . TextFormat::GRAY . "(" . Utils::getFormattedCoords($this->precision, $ploc->getX(), $ploc->getY(), $ploc->getZ()) . ")" . TextFormat::WHITE . "\n";
 		$world = "World: " . TextFormat::GRAY . $this->player->getWorld()->getDisplayName() . TextFormat::WHITE . "\n";
 		$direction = "Direction: " . TextFormat::GRAY . Utils::getCompassDirection($ploc->getYaw()) . " (" . round($ploc->getYaw(), $this->precision) . ")" . TextFormat::WHITE . "\n";
 
